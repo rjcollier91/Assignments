@@ -1,0 +1,31 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+\[\underline{\text{Diamond and Dybvig basic model set up and optimization}} \\[20pt]
+\;\text{1. Expected utility of agent at T = 0:} \\[10pt]
+U(c_1,c_2) = t\*u(c_1) + (1-t)\*\rho\*u(c_2) \\[10pt]
+where... \\[10pt]
+u'(0) =\infty \\[1pt]
+u'(\infty) =0 \\[1pt]
+\text{-c}\*\frac{u''(c)}{u'(c)}\:\verb+>+\:1 \\[20pt]
+\text{2. Optimal allocation:} \\[10pt]
+\max_{x,c_1,c_2}[t\*u(c_1) + (1-t)\*\rho\*u(c_2)] \\[10pt]
+\text{...subject to resource constraints for periods 1 and 2:} \\[10pt]
+tc_1\:\leq\:x \\[1pt]
+(1-t)c_2\:\leq\:(1-x)R \\[10pt]
+\text{The resource constraints will be satisfied with equality since the function is strictly increasing. Therefore:} \\[10pt]
+\max\Big[t\*u\frac{x}{t} + (1-t)\*\rho\*u\frac{(1-x)R}{1-t}\Big] \\[10pt]
+\text{FOC...} \\[5pt]
+u'\Big(\frac{x}{t}\Big) = \rho\*R\*u'\Big(\frac{(1-x)R}{1-t}\Big) \\[5pt]
+\text{or} \\[5pt]
+u'(c_1) =\rho\*R\*u'(c_2) \\[10pt]
+\Rightarrow 0\:\leq\:x\:\leq\:1\;\text{at the optimum, so}\; c_1\:\verb+>+\:0 \\[1pt]
+\Rightarrow \text{Since}\;\rho\*R\;\geq\;0\;\text{and the function is strictly concave:}\;c_2\;\geq\;c_1 \\[10pt]
+\text{Therefore, it is possible to say that this allocation is efficient and incentive compatible.} \\[10pt]
+\text{3. The optimum:} \\[10pt]
+c_1^*\;\verb+>+\;1 \\[1pt]
+c_2^*\;\verb+<+\;R\]
+\end{document}
