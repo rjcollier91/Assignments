@@ -2,12 +2,12 @@
 =============
 Applied Economic Analysis
 -------------------------
-[CV](https://github.com/rjcollier91/Assignments/blob/master/CV.md)
+1. [CV](https://github.com/rjcollier91/Assignments/blob/master/CV.md)
 
-[Canon Final](https://github.com/rjcollier91/Assignments/blob/master/Canon12ECB-Edits.pdf)
+2. [Canon Final](https://github.com/rjcollier91/Assignments/blob/master/Canon12ECB-Edits.pdf)
 
-[Canon Presentation](https://www.youtube.com/watch?v=o12Aai0v8ZY&feature=youtu.be)
+3. [Canon Presentation](https://www.youtube.com/watch?v=o12Aai0v8ZY&feature=youtu.be)
 
-[Python Assignment](https://github.com/u608931/Python/blob/master/PythonASSIGNMENT29.01.ipynb)
+4. [Python Assignment](https://github.com/u608931/Python/blob/master/PythonASSIGNMENT29.01.ipynb)
 
 
